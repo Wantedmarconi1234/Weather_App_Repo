@@ -2,7 +2,6 @@ import React,{useState, useEffect} from 'react'
 import { FaSun } from "react-icons/fa";
 
 
-
 function Weather() {
   const [location, setLocation] = useState('')
   const [weatherData, setWeatherData] = useState([])
